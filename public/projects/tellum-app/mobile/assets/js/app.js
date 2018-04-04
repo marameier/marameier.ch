@@ -1,5 +1,5 @@
 /**
- * @author Michael Hemingway
+ * @author Mara Meier
  * Mobile Client
  *
  * Concordia University, CART 351. November 2017
@@ -325,7 +325,7 @@ function fetch () {
 }());
 
 /**
- * @author Michael Hemingway
+ * @author Mara Meier
  * Navigation
  *
  * 

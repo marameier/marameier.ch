@@ -1,5 +1,5 @@
 /**
- * @author Michael Hemingway
+ * @author Mara Meier
  * Desktop Client
  *
  * Concordia University, CART 351. November 2017

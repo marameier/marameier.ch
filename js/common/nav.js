@@ -18,7 +18,7 @@ function toggleNav () {
 
 	// nav is closed, open it
 	} else {
-		// navAnimOpen();
+		navAnimOpen();
 		navIsOpen = true;
 		bodyClass.add('nav-is-open');
 	}

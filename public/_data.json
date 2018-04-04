@@ -1,7 +1,7 @@
 {
 	"index" : {
-		"title"        : "MH",
-		"description"  : "This is Michael Hemingway's personal site, and a repository for all those collected digital ideosyncracies.",
+		"title"        : "MM",
+		"description"  : "This is Mara Meier's personal site, and a repository for all those collected digital ideosyncracies.",
 		"items"        : [
 			{
 				"img"  : "/assets/img/home/tellumcover.gif",
@@ -44,7 +44,7 @@
 
 	"about" : {
 		"title"        : "About",
-		"description"  : "The man, the myth and the legend. Michael Hemingway is a photographer, multimedia artist and web developer most days."
+		"description"  : "The <i>wo</i>man, the myth and the legend. Mara Meier is a photographer, multimedia artist and web developer <del>most days</del> since most recently!"
 	},
 
 	"this-site" : {

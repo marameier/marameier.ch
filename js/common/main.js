@@ -1,5 +1,5 @@
 /**
- * Michael Hemingway
+ * Mara Meier
  * (c) 2017
  *
  * I'll probably switch everything over to Vue
