@@ -2,11 +2,13 @@
 
 .projects {
 	margin: $navWidth;
+
 }
 
 // this is an a tag
 .project { 
 	width: 100%;
+	// clip-path: circle(95% at bottom);
 	// padding-right: $navWidth;
 }
 

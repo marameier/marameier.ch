@@ -7,6 +7,7 @@
 	<a href="#game" data-filter=".game">Game Design</a>
 	<a href="#photo" data-filter=".photo">Photography</a>
 	<a href="#print" data-filter=".print">Print Design</a>
+	<a href="#illustration" data-filter=".illustration">Illustration</a>
 </div>
 <div class="projects isotope">
 
@@ -14,10 +15,14 @@
 	<% for (var slug in public.projects._data) { %>
 		<% if (slug != 'index') { // skip the index%>
 
-		<a href="/projects/<%= slug %>" class="project item <%= public.projects._data[slug].category %>">
-			<img src="/assets/img/work/thumbs/<%= slug %>.png">
-			<h3><%= public.projects._data[slug].title %></h3>
-	  </a>
+			<a href="/projects/<%= slug %>" class="project item <%= public.projects._data[slug].category %>
+				<% for (var theme in public.projects._data[slug].themes) { %> 
+					<%= public.projects._data[slug].themes[theme] %>
+				<% } %>"
+			>
+				<img src="/assets/img/work/thumbs/<%= slug %>.png">
+				<h3><%= public.projects._data[slug].title %></h3>
+	  		</a>
 
 	<% }}; // end loop %>
 

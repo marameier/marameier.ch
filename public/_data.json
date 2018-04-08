@@ -38,6 +38,11 @@
 				"img"  : "/assets/img/home/campaigntrailcover.jpg",
 				"link" : "/projects/campaign-trail",
 				"desc" : "Game | 2016"
+			},
+			{
+				"img"  : "/assets/img/home/stormzy_cover.PNG",
+				"link" : "/projects/stormzy",
+				"desc" : "Illustration | 2018"
 			}
 		]
 	},
