@@ -39,10 +39,53 @@
 				"link" : "/projects/campaign-trail",
 				"desc" : "Game | 2016"
 			},
+
 			{
-				"img"  : "/assets/img/home/stormzy_cover.PNG",
+				"img"  : "/assets/img/work/covers/logos_extracted/portfolio.png",
+				"link" : "/projects/portfolio",
+				"desc" : "Illustration | 2018"
+			},
+			{
+				"img"  : "/assets/img/work/covers/logos_extracted/stormzy.png",
 				"link" : "/projects/stormzy",
 				"desc" : "Illustration | 2018"
+			},
+			{
+				"img"  : "/assets/img/work/covers/logos_extracted/transmittance.png",
+				"link" : "/projects/transmittance",
+				"desc" : "Photography | 2017"
+			},
+
+			{
+				"img"  : "/assets/img/work/covers/logos_extracted/verflächigung.png",
+				"link" : "/projects/verflächigung",
+				"desc" : "Illustration | 2018"
+			},
+			{
+				"img"  : "/assets/img/work/covers/logos_extracted/druck.png",
+				"link" : "/projects/druck",
+				"desc" : "Print | 2018"
+			},
+			{
+				"img"  : "/assets/img/work/covers/logos_extracted/collagen.png",
+				"link" : "/projects/collagen",
+				"desc" : "Illustration | 2018"
+			},
+
+			{
+				"img"  : "/assets/img/work/covers/logos_extracted/markt.png",
+				"link" : "/projects/markt",
+				"desc" : "Multimedia | 2018"
+			},
+			{
+				"img"  : "/assets/img/work/covers/logos_extracted/spiel des lebens.png",
+				"link" : "/projects/spiel_des_lebens",
+				"desc" : "Photography | 2018"
+			},
+			{
+				"img"  : "/assets/img/work/covers/logos_extracted/concept.png",
+				"link" : "/projects/concept",
+				"desc" : "Photography | 2018"
 			}
 		]
 	},

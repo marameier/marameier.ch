@@ -12,8 +12,9 @@
 <div class="projects isotope">
 
 	<%# display all posts by category %>
+	<% var i = 0;%>
 	<% for (var slug in public.projects._data) { %>
-		<% if (slug != 'index') { // skip the index%>
+		<% if (slug != 'index' && i > 15) { // skip the index%>
 
 			<a href="/projects/<%= slug %>" class="project item <%= public.projects._data[slug].category %>
 				<% for (var theme in public.projects._data[slug].themes) { %> 
@@ -24,6 +25,7 @@
 				<h3><%= public.projects._data[slug].title %></h3>
 	  		</a>
 
-	<% }}; // end loop %>
+		<%  }i++;
+	}; // end loop %>
 
 </div>

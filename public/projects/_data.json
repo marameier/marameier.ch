@@ -144,7 +144,7 @@
         "description"    : "A large-sized, photorealistic, acrylic series in monochrome blue colors.",
         "data_base"      : "",
         "data_highlight" : "",
-        "cover"          : "stormzy.PNG",
+        "cover"          : "logos_extracted/stormzy.png",
         "category"       : "illustration",
         "themes"         : ["opposition","vis-à-vis"],
         "year"           : "2018"
