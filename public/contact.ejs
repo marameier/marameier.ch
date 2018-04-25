@@ -6,10 +6,11 @@
 
 		<p></p>
 
-		<form id="contact-form" class="no-smoothState" action="" method="post">
+		<form id="contact-form" class="no-smoothState" action="https://formspree.io/rhymeface@mailinator.com" method="POST">
 			<textarea id="form-message" name="message" rows="8" placeholder="Message" required></textarea>
-			<input  id="form-name" name="name" type="text"  placeholder="Name">
-			<input  id="form-email" name="email" type="email"  placeholder="Email" required>
+			<input  id="form-name" name="name" type="text"  placeholder="Your Name">
+			<input  id="form-email" type="email" name="_replyto" type="email"  placeholder="Your Email" required>
+			<input type="hidden" name="_next" value="/" />
 			<button id="form-submit" type="submit">Send me an email</button>
 		</form>
 

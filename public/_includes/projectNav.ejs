@@ -18,7 +18,7 @@ for (let prop in data) {
 			 if (!next) { %><%- ' no-next' %><% } %>"> 
 
 		<% // check for and display link to previous page
-			if (prev != 'index') { %>
+			if (prev != 'index' && data[prev].title != 'Moon') { %>
 				<a href="/projects/<%= prev %>" class="project-nav-prev">
 					<%= data[prev].title %>
 				</a>
