@@ -13,7 +13,9 @@
 						</div>
 						<% var srcTit = items[7].link.split("/");
 							 var linkTitle = srcTit.pop();
-							 linkTitle = linkTitle.replace(/-/g, ' '); %>
+							 linkTitle = linkTitle.replace(/-/g, ' ');
+							 linkTitle = linkTitle.replace(/ae/g, 'ä');
+						%>
 						<div class="overlay">
 							<h2><%= linkTitle %></h2>
 							<h4><%= items[7].desc %></h4>
