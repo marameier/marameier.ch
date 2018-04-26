@@ -42,7 +42,7 @@
 
 			{
 				"img"  : "/assets/img/work/covers/logos_extracted/portfolio.png",
-				"link" : "/projects/portfolio",
+				"link" : "/projects/concept",
 				"desc" : "Illustration | 2018"
 			},
 			{
@@ -78,7 +78,7 @@
 				"desc" : "Multimedia | 2018"
 			},
 			{
-				"img"  : "/assets/img/work/covers/logos_extracted/spiel des lebens.png",
+				"img"  : "/assets/img/work/covers/logos_extracted/spiel-des-lebens.png",
 				"link" : "/projects/spiel-des-lebens",
 				"desc" : "Photography | 2018"
 			},

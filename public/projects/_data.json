@@ -148,5 +148,82 @@
         "category"       : "illustration",
         "themes"         : ["opposition","vis-à-vis"],
         "year"           : "2018"
+    },
+
+    "transmittance" : {
+        "title"          : "transmittance",
+        "description"    : "An analogue and digital photo project.",
+        "data_base"      : "",
+        "data_highlight" : "",
+        "cover"          : "logos_extracted/transmittance.png",
+        "category"       : "photography",
+        "themes"         : ["opposition","vis-à-vis"],
+        "year"           : "2018"
+    },
+
+    "verflaechigung" : {
+        "title"          : "verflaechigung",
+        "description"    : "Abstracted and simplified shapes creating illusions of space.",
+        "data_base"      : "",
+        "data_highlight" : "",
+        "cover"          : "logos_extracted/verflaechigung.png",
+        "category"       : "illustration",
+        "themes"         : ["opposition","vis-à-vis"],
+        "year"           : "2018"
+    },
+
+    "druck" : {
+        "title"          : "druck",
+        "description"    : "A series of prints and stamps.",
+        "data_base"      : "",
+        "data_highlight" : "",
+        "cover"          : "logos_extracted/druck.png",
+        "category"       : "illustration",
+        "themes"         : ["opposition","vis-à-vis"],
+        "year"           : "2018"
+    },
+
+    "collagen" : {
+        "title"          : "collagen",
+        "description"    : "Assemblages of different snippets, creating a new whole.",
+        "data_base"      : "",
+        "data_highlight" : "",
+        "cover"          : "logos_extracted/collagen.png",
+        "category"       : "illustration",
+        "themes"         : ["opposition","vis-à-vis"],
+        "year"           : "2018"
+    },
+
+    "markt" : {
+        "title"          : "markt",
+        "description"    : "A multimedia exploration of intuitive feelings attached to scenery and sound.",
+        "data_base"      : "",
+        "data_highlight" : "",
+        "cover"          : "logos_extracted/markt.png",
+        "category"       : "music",
+        "themes"         : ["opposition","vis-à-vis"],
+        "year"           : "2018"
+    },
+
+    "spiel-des-lebens" : {
+        "title"          : "spiel des lebens",
+        "description"    : "Photography exploring places, things and creatures devoid of life.",
+        "data_base"      : "",
+        "data_highlight" : "",
+        "cover"          : "logos_extracted/spiel-des-lebens.png",
+        "category"       : "illustration",
+        "themes"         : ["opposition","vis-à-vis"],
+        "year"           : "2018"
+	},
+	"concept" : {
+        "title"          : "concept",
+        "description"    : "The process and concept of the combination of this portfolio and the combination of its works.",
+        "data_base"      : "",
+        "data_highlight" : "",
+        "cover"          : "logos_extracted/concept.png",
+        "category"       : "illustration",
+        "themes"         : ["opposition","vis-à-vis"],
+        "year"           : "2018"
     }
+
 }
