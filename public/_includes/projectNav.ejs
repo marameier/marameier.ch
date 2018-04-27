@@ -23,13 +23,32 @@ for (let prop in data) {
 					<%= data[prev].title %>
 				</a>
 			<% } %>
+
+		<% // if first item, show link to last
+			if (data[prev].title == 'Moon') { %>
+				<% var last = data[Object.keys(data)[Object.keys(data).length - 1]].title %>
+				<a href="/projects/<%= last %>" class="project-nav-prev">
+					<%= last %>
+				</a>
+			<% } %>
+
 				<a href="/projects/?cat=<%= category %>" class="project-nav-cat"><%= category %></a>
 				<a href="/projects/?year=<%= year %>" class="project-nav-year"><%= year %></a>
+			
 			<%
 			// check for and display link to next page
 			if (next) { %>
 				<a href="/projects/<%= next %>" class="project-nav-next">
 					<%= data[next].title %>
+				</a>
+			<% } %>
+
+			<%
+			// check for and display link to next page
+			var first = "stormzy"
+			if (!next) { %>
+				<a href="/projects/<%= first %>" class="project-nav-next">
+					<%= first %>
 				</a>
 			<% } %>
 
