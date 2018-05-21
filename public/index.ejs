@@ -1,11 +1,20 @@
 <main id="content" class="home" id="home">
-		<section class="header">
-				<h1>Mara Meier</h1>
-				<p>
-					<span class="desc" id="phrase">...</span> ░ <span class="byline"> multidiciplinary artist ░</span> 
-					<!-- <a href="https://twitter.com/StockHuman">@stockhuman</a> -->
-				</p>
-			</section>
+	<section class="header">
+		<h1>Mara Meier</h1>
+		<p>
+			<span class="desc" id="phrase">...</span> ░ <span class="byline"> multidiciplinary artist ░</span> 
+			<!-- <a href="https://twitter.com/StockHuman">@stockhuman</a> -->
+		</p>
+	</section>
+	<br>
+	<div class="row-full">
+		<article class ="headsup" data-highlight="#000">
+			<p headsup>
+				If you are looking for my homework assignment for the 2018 <a href="http://www.ecal.ch/en/1084/studies/bachelor/fine-arts/presentation">bachelor of fine arts</a>' admission process of <a href="http://www.ecal.ch/en/100/homepage">&#233;cal</a>, go <a href = "/ecal">here</a>.
+			</p>
+		</article>
+	</div>
+	<br>
 	<section id="center-network" class=" network" style="position: relative; left: 10%; max-width: 80%">
 				<a href="<%= items[7].link %>" class='home-item <%= items[7].class %>'>
 						<div class="">
@@ -70,4 +79,23 @@
 			document.getElementById('phrase').innerHTML = '... ' + phrase;
 		}())
 	</script>
+
+	<style type="text/css">
+		article.headsup p {
+			padding: 0 5rem 0 5rem;
+			line-height: 1.5;
+			font-size: 1.2727272727rem;
+			background: rgb(145, 0, 0);
+			color: white !important;
+		}
+		.row-full{
+			width: 100vw;
+			position: relative;
+			margin-left: -50vw;
+			height: 100px;
+			margin-top: 100px;
+			left: 50%;
+		   }
+	</style>
+	
 </main>
