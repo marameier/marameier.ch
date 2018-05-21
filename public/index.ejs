@@ -7,13 +7,15 @@
 		</p>
 	</section>
 	<br>
-	<div class="row-full">
-		<article class ="headsup" data-highlight="#000">
-			<p headsup>
-				If you are looking for my homework assignment for the 2018 <a href="http://www.ecal.ch/en/1084/studies/bachelor/fine-arts/presentation">bachelor of fine arts</a>' admission process of <a href="http://www.ecal.ch/en/100/homepage">&#233;cal</a>, go <a href = "/ecal">here</a>.
-			</p>
-		</article>
-	</div>
+	<section>
+		<div class="row-full">
+			<article class ="headsup" data-highlight="#000">
+				<p headsup>
+					If you are looking for my homework assignment for the 2018 <a href="http://www.ecal.ch/en/1084/studies/bachelor/fine-arts/presentation">bachelor of fine arts</a>' admission process of <a href="http://www.ecal.ch/en/100/homepage">&#233;cal</a>, go <a href = "/ecal">here</a>.
+				</p>
+			</article>
+		</div>
+	</section>
 	<br>
 	<section id="center-network" class=" network" style="position: relative; left: 10%; max-width: 80%">
 				<a href="<%= items[7].link %>" class='home-item <%= items[7].class %>'>
@@ -81,11 +83,17 @@
 	</script>
 
 	<style type="text/css">
+		.network {
+			z-index: -1;
+		}
+		.headsup {
+			z-index: 100;
+		}
 		article.headsup p {
 			padding: 0 5rem 0 5rem;
 			line-height: 1.5;
 			font-size: 1.2727272727rem;
-			background: rgb(145, 0, 0);
+			background: rgba(202, 0, 0, 0.8);
 			color: white !important;
 		}
 		.row-full{
