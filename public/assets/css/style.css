@@ -616,6 +616,10 @@ body.disable-scroll {
   content: "W";
 }
 
+.icon-homework:before {
+  content: "h";
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
@@ -1007,6 +1011,93 @@ p {
   transform: scaleX(1);
 }
 
+#nav-main {
+  color: white !important;
+  animation: opacityfade 110s;
+  -webkit-animation: opacityfade 110s;
+  animation-iteration-count: infinite;
+}
+
+#nav-inner {
+  animation: colorchange 50s;
+  -webkit-animation: colorchange 50s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+  0% {
+    background: #292f35;
+  }
+  25% {
+    background: #292f35;
+  }
+  50% {
+    background: blue;
+  }
+  70% {
+    background: #014421;
+  }
+  90% {
+    background: #8d2f35;
+  }
+  100% {
+    background: #292f35;
+  }
+}
+@-webkit-keyframes colorchange {
+  0% {
+    background: #292f35;
+  }
+  25% {
+    background: #292f35;
+  }
+  50% {
+    background: blue;
+  }
+  70% {
+    background: #014421;
+  }
+  90% {
+    background: #8d2f35;
+  }
+  100% {
+    background: #292f35;
+  }
+}
+@keyframes opacityfade {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.99;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  75% {
+    opacity: 0.99;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes opacityfade {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.99;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  75% {
+    opacity: 0.99;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @media screen and (max-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) {
   .nav-is-open .nav-list-item a i {
     font-size: 3.7rem;
